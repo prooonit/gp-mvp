@@ -27,7 +27,7 @@ function GPDashboard() {
 
         const response =
         await axios.get(
-            "http://localhost:5000/tickets"
+            "https://gp-mvp.onrender.com/tickets"
         );
 
         const filtered =
@@ -54,7 +54,7 @@ function GPDashboard() {
         }
 
         await axios.post(
-            "http://localhost:5000/prescription",
+            "https://gp-mvp.onrender.com/prescription",
             {
                 patientName:
                 ticket.patientName,

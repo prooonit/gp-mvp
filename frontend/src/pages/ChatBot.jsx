@@ -89,7 +89,7 @@ function ChatBot() {
     if (severity === "HIGH") {
 
         await axios.post(
-            "http://localhost:5000/ticket",
+            "https://gp-mvp.onrender.com/ticket",
             {
                 patientName: user.name,
                 pincode: user.pincode,

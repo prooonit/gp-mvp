@@ -19,7 +19,7 @@ function PatientDashboard() {
 
             const response =
                 await axios.get(
-                    "http://localhost:5000/prescriptions"
+                    "https://gp-mvp.onrender.com/prescriptions"
                 );
 
             console.log(response.data);
