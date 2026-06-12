@@ -1,0 +1,65 @@
+{
+  "tickets": [
+    {
+      "id": 1781264324951,
+      "patientName": "Rahul",
+      "symptoms": "Fever",
+      "status": "PENDING"
+    },
+    {
+      "id": 1781264824632,
+      "patientName": "pronit",
+      "pincode": "481331",
+      "symptoms": "Temp:99, Breathing:yes",
+      "severity": "HIGH",
+      "status": "PENDING"
+    },
+    {
+      "id": 1781267240982,
+      "patientName": "yashwini Rahangdale",
+      "pincode": "481001",
+      "symptoms": "fever\n                    | Temp:99\n                    | Breathing:yes",
+      "severity": "HIGH",
+      "status": "PENDING"
+    },
+    {
+      "id": 1781267777632,
+      "patientName": "yashwini Rahangdale",
+      "pincode": "481001",
+      "symptoms": "fever\n                    | Temp:99\n                    | Breathing:yes",
+      "severity": "HIGH",
+      "status": "PENDING"
+    },
+    {
+      "id": 1781267965359,
+      "patientName": "Pronit Rahangdale",
+      "pincode": "481001",
+      "symptoms": "fever\n                    | Temp:99\n                    | Breathing:yes",
+      "severity": "HIGH",
+      "status": "PENDING"
+    }
+  ],
+  "prescriptions": [
+    {
+      "patientName": "yashwini Rahangdale",
+      "prescription": "goood pateinet"
+    },
+    {
+      "patientName": "yashwini Rahangdale",
+      "prescription": "jernje"
+    },
+    {
+      "patientName": "yashwini Rahangdale",
+      "prescription": "rjekke"
+    },
+    {
+      "patientName": "Pronit Rahangdale",
+      "prescription": "good"
+    },
+    {
+      "patientName": "Pronit Rahangdale",
+      "prescription": "good"
+    }
+  ],
+  "appointments": []
+}
