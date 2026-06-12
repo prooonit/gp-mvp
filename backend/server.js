@@ -81,6 +81,29 @@ app.post("/appointment", (req, res) => {
     });
 });
 
+app.get("/prescriptions/:patientName", (req, res) => {
+
+    const db = readDB();
+
+    const patientName =
+        decodeURIComponent(
+            req.params.patientName
+        );
+
+    const prescriptions =
+        db.prescriptions.filter(
+            p =>
+                p.patientName
+                    .trim()
+                    .toLowerCase() ===
+                patientName
+                    .trim()
+                    .toLowerCase()
+        );
+
+    res.json(prescriptions);
+});
+
 
 app.listen(5000, () => {
     console.log("Server running on port 5000");
